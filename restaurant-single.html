@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Palace | FoodExpress</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+     <link rel="shortcut icon" href="Assects/Favicon.jpg" type="image/x-icon">
+</head>
+<body>
+   <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon" ><img src="Assects/Logo.png" alt="" width="50px"></span>
+                <span class="logo-text">Food Panda</span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search restaurants...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="auth-buttons">
+                    <a href="auth.html" class="btn btn-outline">Login</a>
+                    <a href="auth.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Restaurant Banner -->
+    <section class="restaurant-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Pizza Palace</h1>
+                <div class="restaurant-meta">
+                    <span class="rating">4.5 <i class="fas fa-star"></i></span>
+                    <span class="delivery-time">25-35 min</span>
+                    <span class="category">Italian • Pizza • Pasta</span>
+                </div>
+                <p class="address"><i class="fas fa-map-marker-alt"></i> 123 Food Street, Downtown</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Info -->
+    <section class="restaurant-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Delivery Time</h4>
+                        <p>25-35 minutes</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-truck"></i>
+                    <div>
+                        <h4>Delivery Fee</h4>
+                        <p>$1.99</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <h4>Info</h4>
+                        <p>Min. order $10.00</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-utensils"></i>
+                    <div>
+                        <h4>Cuisine</h4>
+                        <p>Italian, Pizza, Pasta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Menu -->
+    <section class="restaurant-menu">
+        <div class="container">
+            <div class="menu-categories">
+                <h3 class="active">Starters</h3>
+                <h3>Pizza</h3>
+                <h3>Pasta</h3>
+                <h3>Desserts</h3>
+                <h3>Drinks</h3>
+            </div>
+            
+            <div class="menu-section">
+                <h2 class="section-title">Starters</h2>
+                <div class="menu-items">
+                    <!-- Menu Item 1 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Bread.jpg" alt="Garlic Bread">
+                        </div>
+                        <div class="item-info">
+                            <h3>Garlic Bread</h3>
+                            <p class="description">Freshly baked bread with garlic butter and herbs</p>
+                            <p class="price">$3.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Menu Item 2 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Bruschetta.jpg" alt="Bruschetta">
+                        </div>
+                        <div class="item-info">
+                            <h3>Bruschetta</h3>
+                            <p class="description">Toasted bread topped with tomatoes, garlic, and fresh basil</p>
+                            <p class="price">$4.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Menu Item 3 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Mozzarella Sticks.jpg" alt="Mozzarella Sticks">
+                        </div>
+                        <div class="item-info">
+                            <h3>Mozzarella Sticks</h3>
+                            <p class="description">Breaded mozzarella cheese fried to golden perfection</p>
+                            <p class="price">$5.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-section">
+                <h2 class="section-title">Pizza</h2>
+                <div class="menu-items">
+                    <!-- Menu Item 4 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Pizza.jpg" alt="Margherita Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>Margherita Pizza</h3>
+                            <p class="description">Classic pizza with tomato sauce, mozzarella, and basil</p>
+                            <p class="price">$10.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Menu Item 5 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Pizza.jpg" alt="Pepperoni Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>Pepperoni Pizza</h3>
+                            <p class="description">Tomato sauce, mozzarella, and spicy pepperoni</p>
+                            <p class="price">$12.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Menu Item 6 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Pizza.jpg" alt="Vegetarian Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>Vegetarian Pizza</h3>
+                            <p class="description">Tomato sauce, mozzarella, bell peppers, mushrooms, olives</p>
+                            <p class="price">$11.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Menu Item 7 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Pizza.jpg" alt="BBQ Chicken Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>BBQ Chicken Pizza</h3>
+                            <p class="description">BBQ sauce, mozzarella, chicken, red onions, cilantro</p>
+                            <p class="price">$13.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-section">
+                <h2 class="section-title">Pasta</h2>
+                <div class="menu-items">
+                    <!-- Menu Item 8 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Spaghetti Bolognese.jpg" alt="Spaghetti Bolognese">
+                        </div>
+                        <div class="item-info">
+                            <h3>Spaghetti Bolognese</h3>
+                            <p class="description">Classic spaghetti with rich meat sauce</p>
+                            <p class="price">$9.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Menu Item 9 -->
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="Assects/Fettuccine Alfredo.jpg" alt="Fettuccine Alfredo">
+                        </div>
+                        <div class="item-info">
+                            <h3>Fettuccine Alfredo</h3>
+                            <p class="description">Creamy Alfredo sauce with fettuccine pasta</p>
+                            <p class="price">$10.99</p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>FoodExpress</h3>
+                    <p>Delivering happiness to your doorstep since 2023.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help & Contact</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Cities</h4>
+                    <ul>
+                        <li><a href="#">Karachi</a></li>
+                        <li><a href="#">Lahore</a></li>
+                        <li><a href="#">Islamabad</a></li>
+                        <li><a href="#">Rawalpindi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FoodExpress. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

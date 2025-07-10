@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodpanda Clone | Food Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+     <link rel="shortcut icon" href="Assects/Favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon" ><img src="Assects/Logo.png" alt="" width="50px"></span>
+                <span class="logo-text">Food Panda</span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search restaurants...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="auth-buttons">
+                    <a href="auth.html" class="btn btn-outline">Login</a>
+                    <a href="auth.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Food you love, delivered fast</h1>
+            <div class="location-search">
+                <input type="text" placeholder="Enter your delivery address">
+                <button class="btn btn-primary">Find Food</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+                    <h3>Pizza</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <h3>Burgers</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <h3>Chicken</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Desi</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Chinese</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-ice-cream"></i>
+                    </div>
+                    <h3>Desserts</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section class="featured-restaurants">
+        <div class="container">
+            <h2 class="section-title">Featured Restaurants</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Pizza.jpg" alt="Pizza Palace">
+                        <span class="rating">4.5 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Pizza Palace</h3>
+                        <p class="cuisine">Italian, Pizza, Pasta</p>
+                        <p class="delivery-time">25-35 min • $1.99 delivery</p>
+                        <a href="#" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Burger.jpg" alt="Burger King">
+                        <span class="rating">4.2 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Burger King</h3>
+                        <p class="cuisine">American, Burgers, Fast Food</p>
+                        <p class="delivery-time">20-30 min • $1.49 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Desi.jpg" alt="Desi Dhaba">
+                        <span class="rating">4.7 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Desi Dhaba</h3>
+                        <p class="cuisine">Pakistani, Indian, BBQ</p>
+                        <p class="delivery-time">30-45 min • $2.49 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Chineese.jpg" alt="Chinese Wok">
+                        <span class="rating">4.3 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Chinese Wok</h3>
+                        <p class="cuisine">Chinese, Asian, Noodles</p>
+                        <p class="delivery-time">25-40 min • $1.99 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="restaurants.html" class="btn btn-primary">View All Restaurants</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download Banner -->
+    <section class="app-banner">
+        <div class="container">
+            <div class="app-content">
+                <h2>Get the FoodExpress App</h2>
+                <p>Order food from your favorite restaurants with just a few taps</p>
+                <div class="app-buttons">
+                    <a href="#" class="app-store-btn">
+                        <i class="fab fa-apple"></i>
+                        <span>Download on the<br><strong>App Store</strong></span>
+                    </a>
+                    <a href="#" class="play-store-btn">
+                        <i class="fab fa-google-play"></i>
+                        <span>Get it on<br><strong>Google Play</strong></span>
+                    </a>
+                </div>
+            </div>
+            <div class="app-image">
+                <img src="Assects/Logo.png" alt="FoodExpress App">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>FoodExpress</h3>
+                    <p>Delivering happiness to your doorstep since 2023.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help & Contact</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Cities</h4>
+                    <ul>
+                        <li><a href="#">Karachi</a></li>
+                        <li><a href="#">Lahore</a></li>
+                        <li><a href="#">Islamabad</a></li>
+                        <li><a href="#">Rawalpindi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FoodExpress. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

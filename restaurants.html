@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants | FoodExpress</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+     <link rel="shortcut icon" href="Assects/Favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon" ><img src="Assects/Logo.png" alt="" width="50px"></span>
+                <span class="logo-text">Food Panda</span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search restaurants...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="auth-buttons">
+                    <a href="auth.html" class="btn btn-outline">Login</a>
+                    <a href="auth.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Restaurants Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Restaurants Near You</h1>
+            <p>Discover the best food from your favorite restaurants</p>
+        </div>
+    </section>
+
+    <!-- Search and Filters -->
+    <section class="restaurant-filters">
+        <div class="container">
+            <div class="filter-container">
+                <div class="search-filter">
+                    <input type="text" placeholder="Search restaurants...">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="category-filter">
+                    <select>
+                        <option value="">All Categories</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="burgers">Burgers</option>
+                        <option value="desi">Desi</option>
+                        <option value="chinese">Chinese</option>
+                        <option value="desserts">Desserts</option>
+                    </select>
+                </div>
+                <div class="sort-filter">
+                    <select>
+                        <option value="">Sort By</option>
+                        <option value="rating">Rating</option>
+                        <option value="delivery-time">Delivery Time</option>
+                        <option value="price">Price</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Grid -->
+    <section class="restaurants-listing">
+        <div class="container">
+            <div class="restaurant-grid">
+                <!-- Restaurant Card 1 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Pizza.jpg" alt="Pizza Palace">
+                        <span class="rating">4.5 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Pizza Palace</h3>
+                        <p class="cuisine">Italian, Pizza, Pasta</p>
+                        <p class="delivery-time">25-35 min • $1.99 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 2 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Burger.jpg" alt="Burger King">
+                        <span class="rating">4.2 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Burger King</h3>
+                        <p class="cuisine">American, Burgers, Fast Food</p>
+                        <p class="delivery-time">20-30 min • $1.49 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 3 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Desi.jpg" alt="Desi Dhaba">
+                        <span class="rating">4.7 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Desi Dhaba</h3>
+                        <p class="cuisine">Pakistani, Indian, BBQ</p>
+                        <p class="delivery-time">30-45 min • $2.49 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 4 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Chineese.jpg" alt="Chinese Wok">
+                        <span class="rating">4.3 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Chinese Wok</h3>
+                        <p class="cuisine">Chinese, Asian, Noodles</p>
+                        <p class="delivery-time">25-40 min • $1.99 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 5 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Sushi.jpg" alt="Sushi Express">
+                        <span class="rating">4.6 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Sushi Express</h3>
+                        <p class="cuisine">Japanese, Sushi, Asian</p>
+                        <p class="delivery-time">35-50 min • $2.99 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 6 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/TocoBell.jpg" alt="Taco Bell">
+                        <span class="rating">4.1 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Taco Bell</h3>
+                        <p class="cuisine">Mexican, Tacos, Fast Food</p>
+                        <p class="delivery-time">15-25 min • $1.29 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 7 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/Steaks.jpg" alt="Steak House">
+                        <span class="rating">4.8 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Steak House</h3>
+                        <p class="cuisine">American, Steak, Grill</p>
+                        <p class="delivery-time">40-55 min • $3.49 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Card 8 -->
+                <div class="restaurant-card">
+                    <div class="restaurant-img">
+                        <img src="Assects/IceCream.jpg" alt="Ice Cream Parlor">
+                        <span class="rating">4.4 <i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="restaurant-info">
+                        <h3>Ice Cream Parlor</h3>
+                        <p class="cuisine">Desserts, Ice Cream, Sweets</p>
+                        <p class="delivery-time">15-25 min • $0.99 delivery</p>
+                        <a href="restaurant-single.html" class="btn btn-outline">View Menu</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>FoodExpress</h3>
+                    <p>Delivering happiness to your doorstep since 2023.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help & Contact</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Cities</h4>
+                    <ul>
+                        <li><a href="#">Karachi</a></li>
+                        <li><a href="#">Lahore</a></li>
+                        <li><a href="#">Islamabad</a></li>
+                        <li><a href="#">Rawalpindi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FoodExpress. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
